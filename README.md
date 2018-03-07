@@ -23,7 +23,7 @@ refer to when experimenting with git repos. See useful version information below
 #### Branch 'grenen'
 
 ```
-(v/ver) ; Returns "branch grenen; tag 'grenen-1'"
+(v/ver) ; Returns "branch grenen; tag 'grenen-2'"
 ```
 
 #### Clojure CLI/deps.edn:
@@ -34,8 +34,21 @@ niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/versio
                                :sha "5a5f992033d4ee6f5650d26719d80ba36b39fc28"}
 ```
 
+#### Branch 'master'
 
-### 1.1.0
+```
+(v/ver) ; Returns "branch 'master'; tag 'master-1'"
+```
+
+#### Clojure CLI/deps.edn:
+
+```
+niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/version-example.git"
+                               :tag "master-1"
+                               :sha "d4ed0757d3e44ee06c666a4ed804d9c70b7e3c07"}
+```
+
+### 1.1.0 on clojars
 
 ```
 (v/ver) ; Returns "version 1.1.0"
@@ -61,8 +74,8 @@ niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/versio
                                :sha "7e0a9c5ffc3725450daef925d826fcd6d943230f"}
 ```
 
-### 1.0.0
-
+### 1.0.0 on clojars
+ 
 ```
 (v/ver) ; Returns "version 1.0.0"
 ```
