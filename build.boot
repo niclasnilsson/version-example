@@ -1,4 +1,7 @@
 (set-env! 
+  :repositories [["clojars" {:url "https://clojars.org/repo/"
+                             :username (System/getenv  "CLOJARS_USER")
+                             :password (System/getenv  "CLOJARS_PASS")}]]
   :dependencies '[[adzerk/bootlaces "0.1.13" :scope "test"]]
   :resource-paths #{"src"})
 
