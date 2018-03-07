@@ -1,4 +1,4 @@
 (ns niclasnilsson.version-example)
 
-(defn ver [] "branch grenen; tag 'grenen-1'")
+(defn ver [] "branch grenen; tag 'grenen-2'")
 
