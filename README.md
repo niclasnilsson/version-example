@@ -45,7 +45,7 @@ niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/versio
 ```
 niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/version-example.git"
                                :tag "master-1"
-                               :sha "d4ed0757d3e44ee06c666a4ed804d9c70b7e3c07"}
+                               :sha "db6050806811bc55c6ed168625e15d653e4b80a1"}
 ```
 
 ### 1.1.0 on clojars
