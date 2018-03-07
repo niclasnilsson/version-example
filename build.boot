@@ -5,6 +5,7 @@
 (require '[adzerk.bootlaces :refer :all])
 
 (def +version+ "0.0.1")
+(bootlaces! +version+)
 
 (task-options!
   pom  {:project 'niclasnilsson/version-example
