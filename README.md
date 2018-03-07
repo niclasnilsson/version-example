@@ -15,29 +15,45 @@ call in order to check which version of the lib that has been loaded.
 
 ### 1.0.0
 
-With Boot or Leiningen:
+#### With Boot or Leiningen:
 
 ```
 [niclasnilsson/version-example "1.0.0"]
 ```
 
-Clojure CLI/deps.edn:
+#### Clojure CLI/deps.edn:
 
 ```
 niclasnilsson/version-example {:mvn/version "1.0.0"}
 ```
 
+or
+
+```
+niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/version-example.git"
+                               :tag "1.0.0"
+                               :sha "ac6e302c4834372cb0b07daf02c6cecf56a8a502"}
+```
+
 ### 1.1.0
 
-With Boot or Leiningen:
+#### With Boot or Leiningen:
 
 ```
 [niclasnilsson/version-example "1.1.0"]
 ```
 
-Clojure CLI/deps.edn:
+#### Clojure CLI/deps.edn:
 
 ```
 niclasnilsson/version-example {:mvn/version "1.1.0"}
+```
+
+or
+
+```
+niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/version-example.git"
+                               :tag "1.0.1"
+                               :sha "7e0a9c5ffc3725450daef925d826fcd6d943230f"}
 ```
 
