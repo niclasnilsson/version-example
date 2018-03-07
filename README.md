@@ -30,8 +30,8 @@ refer to when experimenting with git repos. See useful version information below
 
 ```
 niclasnilsson/version-example {:git/url "https://github.com/niclasnilsson/version-example.git"
-                               :tag "grenen-1"
-                               :sha "44bb94ae276d5fd137860e3d5f249fe1051ec5f1"}
+                               :tag "grenen-2"
+                               :sha "5a5f992033d4ee6f5650d26719d80ba36b39fc28"}
 ```
 
 
